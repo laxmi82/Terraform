@@ -3,7 +3,7 @@ pipelines:
     group: calgroup
     materials:
       Mygit:
-       git:https://github.com/laxmi82/Calulator_Terraform.git
+       git: https://github.com/laxmi82/Calulator_Terraform.git
     stages:
       - build:
           Jobs:
