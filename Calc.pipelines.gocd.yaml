@@ -1,0 +1,13 @@
+pipelines:
+  Cal-build:
+    group: calgroup
+    materials:
+      Mygit:
+       git:https://github.com/laxmi82/Calulator_Terraform.git
+    stages:
+      - build:
+          Jobs:
+           buildtask:
+                tasks:
+                 -exec:
+                   command: mvn clean package    
