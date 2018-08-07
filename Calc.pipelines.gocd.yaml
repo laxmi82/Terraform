@@ -6,8 +6,8 @@ pipelines:
        git: https://github.com/laxmi82/Calulator_Terraform.git
     stages:
       - build:
-          Jobs:
+          jobs:
            buildtask:
                 tasks:
-                 -exec:
+                 - exec:
                    command: mvn clean package    
