@@ -10,4 +10,4 @@ pipelines:
            buildtask:
                 tasks:
                  - exec:
-                   command: mvn clean package    
+                     command: mvn clean package    
